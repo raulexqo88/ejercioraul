@@ -1,0 +1,91 @@
+#body-content {
+	text-align: center;
+	width: 940px;
+	height: 39px;
+	background-color: #555555;
+}
+#header {
+	height: 39px;
+	width: 100%;
+}
+.divHorizontal {
+	background-color: #0F0;
+	height: 300px;
+	clear:both;
+	position:relative;
+	width:808px;
+	z-index:2;
+}
+.header-text {
+	font-weight:bold;
+	font-size:30px;
+	width:300px;
+	margin-left:40px;
+	background-color: #003;
+	color:white;
+	padding-left: 20px;
+	padding-top:5px;
+	float:left;
+}
+.header-text a, .header-text a:hover, .header-text a:visited {
+	color:White;
+	text-decoration:none;
+}
+.menu-horizontal {
+	overflow:auto;
+	float: left;
+	width: 940px;
+}
+.menu-horizontal .menu {
+	float:left;
+	text-align:left;
+}
+.menu-horizontal .menu:hover .menu-vertical {
+	visibility: visible;
+}
+.menu-horizontal .menu a {
+	color:white;
+	text-transform:uppercase;
+	font-size:13px;
+	font-weight:bold;
+	list-style:none;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.menu-horizontal .menu a:hover {
+	text-decoration:underline;
+	cursor:pointer;
+	color:#999999;
+}
+.menu-horizontal .menu a:visited {
+	text-decoration:none;
+}
+.menu-vertical {
+	overflow:auto;
+	visibility: hidden;
+}
+.menu-vertical .submenu {
+	background-color: #212120;
+	clear: both;
+	text-align: center;
+	height: 18px;
+	width: 131px;
+}
+.menu-vertical .submenu .menulol {
+	background-color: #335AFF;
+	height: 15px;
+	width: 131px;
+}
+
+
+.menu-vertical .submenu a, .menu-vertical .submenu a:hover {
+	color:#FFF;
+	font-size:10px;
+	text-decoration:none;
+}
+
+.menu-vertical .submenu a:hover {
+	font-weight:bold;
+	font-size:10px;
+	color:#CCC;
+}
